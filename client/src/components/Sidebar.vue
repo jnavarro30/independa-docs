@@ -32,10 +32,6 @@ const menuItems = ref([
   },
 ])
 
-const toggleSidebar = () => {
-  isOpen.value = !isOpen.value
-}
-
 const toggleAccordion = (index) => {
   openIndex.value = openIndex.value === index ? null : index
 }
@@ -48,11 +44,6 @@ const toggleAccordion = (index) => {
       class="w-64 bg-gray-900 text-white min-h-screen p-4 transition-transform duration-300"
       :class="{ '-translate-x-full': !isOpen }"
     >
-      <button @click="toggleSidebar" class="text-white mb-4">
-        <i class="pi pi-chevron-left"></i>
-        <i class="pi pi-chevron-right"></i>
-      </button>
-
       <!-- Menu -->
       <div v-for="(section, index) in menuItems" :key="index" class="mb-2">
         <button
