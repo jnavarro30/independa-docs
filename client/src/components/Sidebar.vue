@@ -41,7 +41,7 @@ const toggleAccordion = (index) => {
   <div class="flex">
     <!-- Sidebar Drawer -->
     <div
-      class="w-64 bg-gray-900 text-white min-h-screen p-4 transition-transform duration-300"
+      class="w-64 bg-gray-900 text-white min-h-screen p-4 transition-transform duration-300 border-red-950"
       :class="{ '-translate-x-full': !isOpen }"
     >
       <!-- Menu -->

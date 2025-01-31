@@ -40,9 +40,9 @@ defineProps({
               >Jobs</RouterLink
             >
             <RouterLink
-              to="/jobs/add"
+              to="/about"
               class="text-white hover:bg-blue-900 hover:text-white rounded-md px-3 py-2"
-              >Add Job</RouterLink
+              >About</RouterLink
             >
           </div>
         </div>

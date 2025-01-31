@@ -5,10 +5,6 @@ defineProps({
 })
 </script>
 
-<style scoped>
-/* Additional styling if needed */
-</style>
-
 <template>
   <div class="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
     <h1 class="text-3xl font-bold mb-4">{{ title }}</h1>

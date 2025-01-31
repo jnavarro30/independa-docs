@@ -5,15 +5,14 @@ import Sidebar from './components/Sidebar.vue'
 
 const isOpen = ref(true)
 const toggleSidebar = () => {
-  // props.isOpen.valueOf() = false
   isOpen.value = !isOpen.value
-  console.log('working')
 }
 </script>
 
 <template>
   <Navbar :isOpen="isOpen" :toggleSidebar="toggleSidebar" />
-  <RouterView />
-  <Sidebar :isOpen="isOpen" />
-  <RouterView />
+  <div class="flex">
+    <Sidebar :class="isOpen ? '' : 'w-0'" :isOpen="isOpen" />
+    <RouterView class="border-red-500" />
+  </div>
 </template>
