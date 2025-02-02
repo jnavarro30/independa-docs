@@ -20,7 +20,7 @@ const menuItems = ref([
     title: 'General',
     links: [
       { name: 'Contacts', to: '/contacts' },
-      // { name: 'Preferences', to: '/preferences' },
+      { name: 'Roles', to: '/roles' },
     ],
   },
   // {
@@ -39,7 +39,6 @@ const menuItems = ref([
   // },
 ])
 
-const openCloseIcon = () => {}
 const toggleAccordion = (index) => {
   openIndex.value = openIndex.value === index ? null : index
 }
