@@ -1,0 +1,31 @@
+<script setup>
+import { ref } from 'vue'
+import PageContent from '@/components/PageContent.vue'
+
+const pageTitle = ref('Calendar')
+const pageContent = ref([
+  {
+    heading: 'How to use Calendar',
+    text: [
+      'Notify your care recipients of events using Independa’s Community Calendars feature. Events can be created as one-time or recurring.',
+      'Care recipients can search across the current and following week’s calendar events.',
+    ],
+  },
+  // {
+  //   heading: 'What We Offer',
+  //   text: 'Our platform includes remote caregiving tools, health tracking, and engagement features.',
+  // },
+  // {
+  //   image: 'https://via.placeholder.com/800x400', // Replace with an actual image
+  //   imageAlt: 'Example Image',
+  // },
+  // {
+  //   text: 'Learn more about our services and features.',
+  //   link: { text: 'Visit Our Website', url: 'https://independa.com' },
+  // },
+])
+</script>
+
+<template>
+  <PageContent :title="pageTitle" :content="pageContent" />
+</template>

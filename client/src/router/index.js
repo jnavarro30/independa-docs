@@ -3,6 +3,14 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactsView from '@/views/ContactsView.vue'
 import RolesView from '@/views/RolesView.vue'
+import BroadcastsView from '@/views/BroadcastsView.vue'
+import CalendarView from '@/views/CalendarView.vue'
+import DigitalSignageView from '@/views/DigitalSignageView.vue'
+import DiningView from '@/views/DiningView.vue'
+import MaintenanceView from '@/views/MaintenanceView.vue'
+import SurveysView from '@/views/SurveysView.vue'
+import CareRecipientsView from '@/views/CareRecipientsView.vue'
+import StaffView from '@/views/StaffView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +34,48 @@ const router = createRouter({
       path: '/roles',
       name: 'roles',
       component: RolesView,
+    },
+    // Manage Apps
+    {
+      path: '/broadcasts',
+      name: 'broadcasts',
+      component: BroadcastsView,
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: CalendarView,
+    },
+    {
+      path: '/digital-signage',
+      name: 'digital-signage',
+      component: DigitalSignageView,
+    },
+    {
+      path: '/dining',
+      name: 'dining',
+      component: DiningView,
+    },
+    {
+      path: '/maintenance',
+      name: 'maintenance',
+      component: MaintenanceView,
+    },
+    {
+      path: '/surveys',
+      name: 'surveys',
+      component: SurveysView,
+    },
+    // Administration
+    {
+      path: '/care-recipients',
+      name: 'care-recipients',
+      component: CareRecipientsView,
+    },
+    {
+      path: '/staff',
+      name: 'staff',
+      component: StaffView,
     },
     // {
     //   path: '/about',

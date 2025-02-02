@@ -10,6 +10,13 @@ const openIndex = ref(null)
 
 const menuItems = ref([
   {
+    title: 'General',
+    links: [
+      { name: 'Contacts', to: '/contacts' },
+      { name: 'Roles', to: '/roles' },
+    ],
+  },
+  {
     title: 'Dashboard',
     links: [
       { name: 'Home', to: '/' },
@@ -17,10 +24,21 @@ const menuItems = ref([
     ],
   },
   {
-    title: 'General',
+    title: 'Manage Apps',
     links: [
-      { name: 'Contacts', to: '/contacts' },
-      { name: 'Roles', to: '/roles' },
+      { name: 'Broadcasts', to: '/broadcasts' },
+      { name: 'Calendar', to: '/calendar' },
+      { name: 'Digital Signage', to: '/digital-signage' },
+      { name: 'Dining', to: '/dining' },
+      { name: 'Maintenance', to: '/maintenance' },
+      { name: 'Surveys', to: '/surveys' },
+    ],
+  },
+  {
+    title: 'Administration',
+    links: [
+      { name: 'Care Recipients', to: '/care-recipients' },
+      { name: 'Staff', to: '/staff' },
     ],
   },
   // {
