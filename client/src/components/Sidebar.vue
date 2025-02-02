@@ -17,21 +17,29 @@ const menuItems = ref([
     ],
   },
   {
-    title: 'Settings',
+    title: 'General',
     links: [
-      { name: 'Profile', to: '/profile' },
-      { name: 'Preferences', to: '/preferences' },
+      { name: 'Contacts', to: '/contacts' },
+      // { name: 'Preferences', to: '/preferences' },
     ],
   },
-  {
-    title: 'Help',
-    links: [
-      { name: 'FAQ', to: '/faq' },
-      { name: 'Support', to: '/support' },
-    ],
-  },
+  // {
+  //   title: 'Settings',
+  //   links: [
+  //     { name: 'Profile', to: '/profile' },
+  //     { name: 'Preferences', to: '/preferences' },
+  //   ],
+  // },
+  // {
+  //   title: 'Help',
+  //   links: [
+  //     { name: 'FAQ', to: '/faq' },
+  //     { name: 'Support', to: '/support' },
+  //   ],
+  // },
 ])
 
+const openCloseIcon = () => {}
 const toggleAccordion = (index) => {
   openIndex.value = openIndex.value === index ? null : index
 }
@@ -51,7 +59,8 @@ const toggleAccordion = (index) => {
           class="w-full flex justify-between items-center bg-gray-800 p-2 rounded"
         >
           <span>{{ section.title }}</span>
-          <i class="pi pi-chevron-down"></i>
+          <i v-if="openIndex === index" class="pi pi-chevron-right"></i>
+          <i v-else class="pi pi-chevron-down"></i>
         </button>
 
         <!-- Accordion Content -->

@@ -13,10 +13,14 @@ defineProps({
       <h2 v-if="section.heading" class="text-xl font-semibold mb-2">
         {{ section.heading }}
       </h2>
-      <p v-if="section.text" class="text-gray-700 leading-relaxed">
-        {{ section.text }}
-      </p>
-      <img
+      <ul
+        v-for="(text, index) in section.text"
+        :key="index"
+        class="text-gray-700 leading-relaxed text-justify list-disc"
+      >
+        <li>{{ text }}</li>
+      </ul>
+      <!-- <img
         v-if="section.image"
         :src="section.image"
         :alt="section.imageAlt || 'Image'"
@@ -29,7 +33,7 @@ defineProps({
         class="text-green-600 hover:underline mt-2 inline-block"
       >
         {{ section.link.text }}
-      </a>
+      </a> -->
     </div>
   </div>
 </template>

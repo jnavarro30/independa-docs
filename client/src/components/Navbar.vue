@@ -35,11 +35,6 @@ defineProps({
               >Home</RouterLink
             >
             <RouterLink
-              to="/jobs"
-              class="text-white hover:bg-blue-900 hover:text-white rounded-md px-3 py-2"
-              >Jobs</RouterLink
-            >
-            <RouterLink
               to="/about"
               class="text-white hover:bg-blue-900 hover:text-white rounded-md px-3 py-2"
               >About</RouterLink
