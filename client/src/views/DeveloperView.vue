@@ -2,11 +2,11 @@
 import { ref } from 'vue'
 import PageContent from '@/components/PageContent.vue'
 
-const pageTitle = ref('Welcome to Independa')
+const pageTitle = ref('Developer')
 const pageContent = ref([
   {
-    heading: 'Docs all in one place',
-    text: ['Organize how to`s and dev help.'],
+    heading: '',
+    text: ['We aim to provide the best health and wellness solutions for caregivers and families.'],
   },
   {
     heading: 'What We Offer',

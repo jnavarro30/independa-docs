@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '@/views/AboutView.vue'
 import ContactsView from '@/views/ContactsView.vue'
 import RolesView from '@/views/RolesView.vue'
 import BroadcastsView from '@/views/BroadcastsView.vue'
@@ -11,6 +10,7 @@ import MaintenanceView from '@/views/MaintenanceView.vue'
 import SurveysView from '@/views/SurveysView.vue'
 import CareRecipientsView from '@/views/CareRecipientsView.vue'
 import StaffView from '@/views/StaffView.vue'
+import DeveloperView from '@/views/DeveloperView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,11 +19,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: AboutView,
     },
     {
       path: '/contacts',
@@ -85,6 +80,12 @@ const router = createRouter({
     //   // which is lazy-loaded when the route is visited.
     //   component: () => import('../views/AboutView.vue'),
     // },
+    // DEVELOPER TAB
+    {
+      path: '/developer',
+      name: 'developer',
+      component: DeveloperView,
+    },
   ],
 })
 

@@ -1,11 +1,16 @@
 <script setup>
-import { defineProps } from 'vue'
-import { RouterLink } from 'vue-router'
+import { defineProps, ref } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
 
 defineProps({
   isOpen: Boolean,
   toggleSidebar: Object,
+  selectTab: Object,
 })
+
+const route = useRoute()
+// const fullPath = ref(route.fullPath)
+// console.log(route.fullPath, 'hahahhahaha')
 
 // const toggleAccordion = (index) => {
 //   openIndex.value = openIndex.value === index ? null : index
@@ -31,13 +36,15 @@ defineProps({
           <div class="flex space-x-2">
             <RouterLink
               to="/"
-              class="text-white bg-blue-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+              @click="selectTab('home')"
+              :class="`text-white ${route.fullPath === '/' ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
               >Home</RouterLink
             >
             <RouterLink
-              to="/about"
-              class="text-white hover:bg-blue-900 hover:text-white rounded-md px-3 py-2"
-              >About</RouterLink
+              to="/developer"
+              @click="selectTab('developer')"
+              :class="`text-white ${route.fullPath === '/about' ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
+              >Developer</RouterLink
             >
           </div>
         </div>
