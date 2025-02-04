@@ -9,41 +9,78 @@ defineProps({
 const openIndex = ref(null)
 
 const menuItems = ref([
+  // {
+  //   title: 'General',
+  //   links: [
+  //     { name: 'Contacts', to: '/contacts' },
+  //     { name: 'Roles', to: '/roles' },
+  //   ],
+  // },
+  // {
+  //   title: 'Dashboard',
+  //   links: [
+  //     { name: 'Home', to: '/' },
+  //     { name: 'Stats', to: '/stats' },
+  //   ],
+  // },
   {
-    title: 'General',
+    title: 'Angela',
+    links: [{ name: 'IHH', to: '/legacy/angela' }],
+  },
+  {
+    title: 'Caregiver',
     links: [
-      { name: 'Contacts', to: '/home/contacts' },
-      { name: 'Roles', to: '/home/roles' },
+      { name: 'Android', to: '/legacy/android' },
+      { name: 'iOS', to: '/legacy/ios' },
     ],
   },
   {
-    title: 'Social',
-    links: [
-      { name: 'Audio Clips', to: '/home/audio-clips' },
-      { name: 'Messages', to: '/home/messages' },
-      { name: 'Photos', to: '/home/photos' },
-      { name: 'Video Call', to: '/home/video-call' },
-      { name: 'Video Clips', to: '/home/video-clips' },
-    ],
+    title: 'V1 Portal',
+    links: [{ name: 'Site', to: '/legacy/portal' }],
   },
-  {
-    title: 'Manage Apps',
-    links: [
-      { name: 'Broadcasts', to: '/home/broadcasts' },
-      { name: 'Calendar', to: '/home/calendar' },
-      { name: 'Digital Signage', to: '/home/digital-signage' },
-      { name: 'Dining', to: '/home/dining' },
-      { name: 'Maintenance', to: '/home/maintenance' },
-      { name: 'Surveys', to: '/home/surveys' },
-    ],
-  },
-  {
-    title: 'Administration',
-    links: [
-      { name: 'Care Recipients', to: '/home/care-recipients' },
-      { name: 'Staff', to: '/home/staff' },
-    ],
-  },
+  // {
+  //   title: 'IATC',
+  //   links: [{ name: 'IATC', to: '/developer/iatc' }],
+  // },
+  // {
+  //   title: 'Companion',
+  //   links: [
+  //     { name: 'Home', to: '/' },
+  //     { name: 'Stats', to: '/stats' },
+  //   ],
+  // },
+  // {
+  //   title: 'Portal',
+  //   links: [
+  //     { name: 'Home', to: '/' },
+  //     { name: 'Stats', to: '/stats' },
+  //   ],
+  // },
+  // {
+  //   title: 'Platforms',
+  //   links: [
+  //     { name: 'Chrome', to: '/' },
+  //     { name: 'Android', to: '/android' },
+  //   ],
+  // },
+  // {
+  //   title: 'Manage Apps',
+  //   links: [
+  //     { name: 'Broadcasts', to: '/broadcasts' },
+  //     { name: 'Calendar', to: '/calendar' },
+  //     { name: 'Digital Signage', to: '/digital-signage' },
+  //     { name: 'Dining', to: '/dining' },
+  //     { name: 'Maintenance', to: '/maintenance' },
+  //     { name: 'Surveys', to: '/surveys' },
+  //   ],
+  // },
+  // {
+  //   title: 'Administration',
+  //   links: [
+  //     { name: 'Care Recipients', to: '/care-recipients' },
+  //     { name: 'Staff', to: '/staff' },
+  //   ],
+  // },
   // {
   //   title: 'Settings',
   //   links: [

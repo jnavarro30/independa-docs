@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import Navbar from './components/Navbar.vue'
 import Sidebar from './components/Sidebar.vue'
 import SidebarDeveloper from './components/SidebarDeveloper.vue'
+import SidebarLegacy from './components/SidebarLegacy.vue'
 
 const selectedTab = ref('home')
 const selectTab = (tab = 'home') => {
@@ -21,6 +22,11 @@ const toggleSidebar = () => {
     <Sidebar v-if="selectedTab === 'home'" :class="isOpen ? '' : 'w-0'" :isOpen="isOpen" />
     <SidebarDeveloper
       v-else-if="selectedTab === 'developer'"
+      :class="isOpen ? '' : 'w-0'"
+      :isOpen="isOpen"
+    />
+    <SidebarLegacy
+      v-else-if="selectedTab === 'legacy'"
       :class="isOpen ? '' : 'w-0'"
       :isOpen="isOpen"
     />

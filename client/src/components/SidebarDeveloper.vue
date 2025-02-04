@@ -24,11 +24,37 @@ const menuItems = ref([
   //   ],
   // },
   {
+    title: 'ConscioTech',
+    links: [
+      { name: 'Sheets', to: '/developer/sheets' },
+      { name: 'Quality Assurance', to: '/developer/quality-assurance' },
+      // { name: 'iOS', to: '/developer/ios' },
+    ],
+  },
+  {
     title: 'Health Hub',
     links: [
-      { name: 'Health Hub', to: '/developer/health-hub' },
-      // { name: 'Stats', to: '/stats' },
+      { name: 'IHH', to: '/developer/ihh' },
+      { name: 'Chrome', to: '/developer/chrome' },
+      { name: 'Dish', to: '/developer/dish' },
+      { name: 'LG', to: '/developer/lg' },
+      { name: 'Sony', to: '/developer/sony' },
     ],
+  },
+  {
+    title: 'Companion',
+    links: [
+      { name: 'Android', to: '/developer/android' },
+      { name: 'iOS', to: '/developer/ios' },
+    ],
+  },
+  {
+    title: 'Portal',
+    links: [{ name: 'Site', to: '/developer/portal' }],
+  },
+  {
+    title: 'IATC',
+    links: [{ name: 'IATC', to: '/developer/iatc' }],
   },
   // {
   //   title: 'Companion',

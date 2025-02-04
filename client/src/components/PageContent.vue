@@ -25,7 +25,7 @@ defineProps({
         :src="section.image"
         :alt="section.imageAlt || 'Image'"
         class="w-full h-auto rounded-lg shadow-md mt-2"
-      />
+      /> -->
       <a
         v-if="section.link"
         :href="section.link.url"
@@ -33,7 +33,7 @@ defineProps({
         class="text-green-600 hover:underline mt-2 inline-block"
       >
         {{ section.link.text }}
-      </a> -->
+      </a>
     </div>
   </div>
 </template>

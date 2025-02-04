@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps, ref } from 'vue'
+import { defineProps } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
 defineProps({
@@ -35,16 +35,22 @@ const route = useRoute()
         <div class="md:ml-auto">
           <div class="flex space-x-2">
             <RouterLink
-              to="/"
+              to="/home"
               @click="selectTab('home')"
-              :class="`text-white ${route.fullPath === '/' ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
+              :class="`text-white ${/home/.test(route.fullPath) ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
               >Home</RouterLink
             >
             <RouterLink
               to="/developer"
               @click="selectTab('developer')"
-              :class="`text-white ${route.fullPath === '/about' ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
+              :class="`text-white ${/developer/.test(route.fullPath) ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
               >Developer</RouterLink
+            >
+            <RouterLink
+              to="/legacy"
+              @click="selectTab('legacy')"
+              :class="`text-white ${/legacy/.test(route.fullPath) ? 'bg-blue-900' : ''} hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`"
+              >Legacy</RouterLink
             >
           </div>
         </div>
