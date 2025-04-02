@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "independa-docs",
   title: "Documentation",
   description: "For the Consumer, Enterprise & Developer",
   themeConfig: {
