@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "."
-  text: "Independa Documentation"
-  tagline: My great project tagline
+  name: Independa
+  text: Docs
+  tagline: For the Consumer, Enterprise & Developer
+  image:
+    src: assets/independa_logo.png
+    alt: "Independa Logo"
   actions:
     - theme: brand
       text: Markdown Examples
