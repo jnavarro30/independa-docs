@@ -5,7 +5,9 @@ link: /index
 ---
 
 <script setup>
-const ua = navigator.userAgent.toLowerCase();
+
+if (typeof window !== 'undefined') {
+  const ua = navigator.userAgent.toLowerCase();
 
 console.log('Navigator User Agent = ', ua);
 
@@ -20,6 +22,8 @@ if (ua.includes('android')) {
 window.location.href = '/independa-docs/';
 
 
+
+}
 </script>
 
 > Redirecting you to the right app...
