@@ -11,18 +11,26 @@ hero:
     alt: "Independa Logo"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Docs
+      link: /docs/general/overview
+    - theme: brand
+      text: Portal
+      link: https://portal.independa.com/
+    - theme: brand
+      text: Health Hub
+      link: https://tv.independa.com/
+    - theme: brand
+      text: Companion
+      link: /redirect
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Docs
+    details: Everything we need from getting started with our platforms to troubleshooting and setting up our development environments.
+  - title: Portal
+    details: Enterprise grade, PAAS (Platform as a Service) TV based, award winning, HIPAA compliant, social / clinical / operational engagement and benefits, all fully integrated, easy to install, use and manage. Create top line growth, bottom line efficiencies, and brand benefits.
+  - title: Health Hub
+    details: FREE and awesome benefits including hearing assessment, pharmacy discount benefits, simplified video chat, and photo / message / audio and video clip sharing with loved ones. Even fun games! Premium services include access to doctors, therapists and dentists. Health and wellness options, including WebMD medical grade content and personalized exercise videos, and more!
+  - title: Companion
+    details: The Companion for personal caregivers using the powerful Independa platform to support loved ones who choose to age-in-place. The Independa-enabled TV supports a range of engagement, reminder, and support oriented functions, all controlled through your Android phone and companion web application. If you have an IndependaTV and caregiver log-in, download now! 
 ---
 

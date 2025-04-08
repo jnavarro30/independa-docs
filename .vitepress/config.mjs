@@ -10,13 +10,23 @@ export default defineConfig({
     logo: '/assets/small-logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      // { text: 'Examples', link: '/markdown-examples' },
       { text: 'Enterprise', link: '/docs/enterprise/overview' },
       { text: 'Consumer', link: '/docs/consumer/overview' },
-      { text: 'Developer', link: '/docs/developer/overview' }
+      { text: 'Developer', link: '/docs/developer/overview' },
+      { text: 'Docs', link: '/docs/general/overview' },
     ],
 
     sidebar: [
+      {
+        text: 'General',
+        items: [
+          { text: 'Overview', link: '/docs/general/overview' },
+          { text: 'Roles', link: '/docs/general/roles' },
+          { text: 'Contacts', link: '/docs/general/contacts' },
+          { text: 'Availability', link: '/docs/general/availability' },
+        ]
+      },
       {
         text: 'Enterprise',
         items: [
@@ -38,7 +48,21 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/docs/developer/overview' },
           { text: 'Health Hub', link: '/docs/developer/health-hub' },
+          { text: 'Companion', link: '/docs/developer/companion' },
+          { text: 'Partners', link: '/docs/developer/partners' },
+          { text: 'AWS', link: '/docs/developer/aws' },
+          // { text: 'Legacy', link: '/docs/developer/legacy' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Legacy',
+        items: [
+          { text: 'Overview', link: '/docs/legacy/overview' },
+          // { text: 'AWS', link: '/docs/legacy/mobile' },
+          // { text: 'Legacy', link: '/docs/developer/legacy' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Keystone', link: '/docs/legacy/keystone' },
         ]
       }
     ],
