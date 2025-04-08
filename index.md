@@ -7,7 +7,7 @@ hero:
   text: Docs
   tagline: For the Consumer, Enterprise & Developer
   image:
-    src: assets/independa_logo.png
+    src: /independa_logo.png
     alt: "Independa Logo"
   actions:
     - theme: brand
