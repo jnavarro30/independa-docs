@@ -17,7 +17,7 @@ if (ua.includes('android')) {
   window.open('https://play.google.com/store/apps/details?id=com.reactnativezoomsdkpoc&hl=en_US&pli=1', '_blank');
 }
 
-window.location.href = '/';
+window.location.href = '/independa-docs/';
 
 
 </script>
