@@ -5,9 +5,11 @@ export default defineConfig({
   base: "/independa-docs/",
   title: "Documentation",
   description: "For the Consumer, Enterprise & Developer",
+  head: [
+      ['link', {rel: 'icon', href: '/independa-docs/favicon.ico', type: 'image/x-icon'}]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/small-logo.png',
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
