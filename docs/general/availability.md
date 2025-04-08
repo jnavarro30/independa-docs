@@ -15,7 +15,7 @@ IOS and Android
 
 | Name | URL | Role | Contact |
 |-------------|-------------|
-| Independa | [our.independa.com](our.independa.com) |
+| Independa | [our.independa.com](https://our.independa.com) |
 | Provision | [our.independa.com/provision](https://our.independa.com/provision/?next=/provision/devices) |
 | Jenkis | [alfred.independa.com/jenkins](https://alfred.independa.com/jenkins/job/Independa/) |
 

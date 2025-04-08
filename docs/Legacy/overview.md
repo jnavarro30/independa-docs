@@ -8,7 +8,7 @@ outline: deep
 
 | Name | URL |
 |-------------|-------------|
-| Independa | [our.independa.com](our.independa.com) |
+| Independa | [our.independa.com](https://our.independa.com) |
 | Provision | [our.independa.com/provision](https://our.independa.com/provision/?next=/provision/devices) |
 | Jenkis | [alfred.independa.com/jenkins](https://alfred.independa.com/jenkins/job/Independa/) |
 | Manual | [docs.google.com/document](https://docs.google.com/document/d/1-crn9itqrVxo3WqXv7CW5m2cmLxfR9uQYT1jeqFt24g/edit?tab=t.0#heading=h.2zcbdvof6wzw) |
