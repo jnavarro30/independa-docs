@@ -53,6 +53,7 @@ export default defineConfig({
           { text: 'Companion', link: '/docs/developer/companion' },
           { text: 'Partners', link: '/docs/developer/partners' },
           { text: 'AWS', link: '/docs/developer/aws' },
+          { text: 'Twilio', link: '/docs/developer/twilio' },
           // { text: 'Legacy', link: '/docs/developer/legacy' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
