@@ -13,20 +13,21 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Enterprise', link: '/docs/enterprise/overview' },
-      { text: 'Consumer', link: '/docs/consumer/overview' },
+      // { text: 'Enterprise', link: '/docs/enterprise/overview' },
+      // { text: 'Consumer', link: '/docs/consumer/overview' },
       { text: 'Developer', link: '/docs/developer/overview' },
-      { text: 'Docs', link: '/docs/general/overview' },
+      { text: 'Docs', link: '/docs/general/roles' },
     ],
 
     sidebar: [
       {
         text: 'General',
         items: [
-          { text: 'Overview', link: '/docs/general/overview' },
+          // { text: 'Overview', link: '/docs/general/overview' },
           { text: 'Roles', link: '/docs/general/roles' },
           { text: 'Contacts', link: '/docs/general/contacts' },
           { text: 'Availability', link: '/docs/general/availability' },
+          { text: 'Features', link: '/docs/general/features' },
         ]
       },
       {
@@ -51,6 +52,7 @@ export default defineConfig({
           { text: 'Overview', link: '/docs/developer/overview' },
           { text: 'Health Hub', link: '/docs/developer/health-hub' },
           { text: 'Companion', link: '/docs/developer/companion' },
+          { text: 'Patient Education', link: '/docs/developer/patient-education' },
           { text: 'Partners', link: '/docs/developer/partners' },
           { text: 'AWS', link: '/docs/developer/aws' },
           { text: 'Twilio', link: '/docs/developer/twilio' },

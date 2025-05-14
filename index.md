@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Docs
-      link: /docs/general/overview
+      link: /docs/general/roles
     - theme: brand
       text: Portal
       link: https://portal.independa.com/

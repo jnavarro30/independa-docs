@@ -1,7 +1,11 @@
 # Read Me
 
-### Deploying to Github Pages
+### Run Docs
+```
+npm run dev
+```
 
+### Deploying to Github Pages
 ```
 npm run build
 npm run gh-deploy
