@@ -18,7 +18,7 @@ outline: deep
 | Call | (800) 815-7829 |
 | SMS | (858) 367-3998 |
 
-![Patient Education](./assets/patient-education/mdm_homepage.png)
+<!-- ![Patient Education](./assets/patient-education/mdm_homepage.png) -->
 
 https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#
 
