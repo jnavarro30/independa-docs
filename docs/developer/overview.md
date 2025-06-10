@@ -4,18 +4,14 @@ outline: deep
 
 # Overview
 
-Helpful docs and resources for the developers
-
-### Tools
-
-| Role | Name | Number | Platforms |
-|-------------|-------------|-------------|-------------|
-| Swagger UI | [api-stage.independa.com](https://api-stage.independa.com/independa-api/#/Care%20Recipient/post_portal_care_recipient__care_recipient_id_) | 80808080 | IHH, Mobile |
+### Quality Assurance Bug Sheets
+| Type | Link |
+|-------------|-------------|
+| Bugs | [All Platforms Bug Sheet](https://docs.google.com/spreadsheets/d/1fFi3a_prdoibGsh7318o27VqEcWjke08JmL1zX8ijbM/edit?gid=0#gid=0) |
+| Team  | [Independa Priority](https://docs.google.com/spreadsheets/d/16vHQ72EMRUSPpaPtAAF3GGleShR60CiR5p3B50LJ9fQ/edit?gid=1565282104#gid=1565282104) |
 
 ### Test Accounts
 Production
-
-Fake Pay Card # 5555 5555 5555 4444
 
 | Role | Name | Number | Platforms |
 |-------------|-------------|-------------|-------------|
@@ -24,8 +20,8 @@ Fake Pay Card # 5555 5555 5555 4444
 | Social Contact | Susie Contreras | 9090909090 | Mobile |
 | **ENTERPRISE** |
 | Admin | Admin | 637 738 8888 | Portal |
-| Care Manager | Jesse Navarro | ########## | Portal, Android |
-| Care Recipient | James Nuñez | 2222222222 | IHH |
+| Care Manager | Jesse Navarro | 777 775 5555 | Portal, Android |
+| Care Recipient | James Nuñez | 222 222 2222 | IHH |
 | Social Contact | Febby Ten | ########## | iOS |
 
 Stage
@@ -42,13 +38,6 @@ Stage
 | Care Manager | Jesse Navarro | ########## | Portal, Android |
 | Care Recipient | Andrew Rivera | 1222222222 | IHH |
 | Social Contact | Febby Ten | ########## | iOS |
-
-### Bug Sheets
-| Type | Link |
-|-------------|-------------|
-| Bugs | [All Platforms Bug Sheet](https://docs.google.com/spreadsheets/d/1fFi3a_prdoibGsh7318o27VqEcWjke08JmL1zX8ijbM/edit?gid=0#gid=0) |
-| Team  | [Independa Priority](https://docs.google.com/spreadsheets/d/16vHQ72EMRUSPpaPtAAF3GGleShR60CiR5p3B50LJ9fQ/edit?gid=1565282104#gid=1565282104) |
-
 
 ### APK files
 | Item | Link | Deprecated |
@@ -71,3 +60,9 @@ Stage
 - Videos should be optimized (Under 50MB)
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+
+### Tools
+
+| Role | Name | Number | Platforms |
+|-------------|-------------|-------------|-------------|
+| Swagger UI | [api-stage.independa.com](https://api-stage.independa.com/independa-api/#/Care%20Recipient/post_portal_care_recipient__care_recipient_id_) | 80808080 | IHH, Mobile |

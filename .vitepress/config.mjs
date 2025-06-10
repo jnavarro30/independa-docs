@@ -30,22 +30,22 @@ export default defineConfig({
           { text: 'Features', link: '/docs/general/features' },
         ]
       },
-      {
-        text: 'Enterprise',
-        items: [
-          { text: 'Overview', link: '/docs/enterprise/overview' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Consumer',
-        items: [
-          { text: 'Overview', link: '/docs/consumer/overview' },
-          { text: 'Health Hub', link: '/docs/consumer/health-hub' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
+      // {
+      //   text: 'Enterprise',
+      //   items: [
+      //     { text: 'Overview', link: '/docs/enterprise/overview' },
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // },
+      // {
+      //   text: 'Consumer',
+      //   items: [
+      //     { text: 'Overview', link: '/docs/consumer/overview' },
+      //     { text: 'Health Hub', link: '/docs/consumer/health-hub' },
+      //     // { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // },
       {
         text: 'Developer',
         items: [
