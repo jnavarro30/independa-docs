@@ -56,7 +56,7 @@ export default defineConfig({
           { text: 'Partners', link: '/docs/developer/partners' },
           { text: 'AWS', link: '/docs/developer/aws' },
           { text: 'Twilio', link: '/docs/developer/twilio' },
-          // { text: 'Legacy', link: '/docs/developer/legacy' },
+          { text: 'DANA', link: '/docs/developer/dana' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
