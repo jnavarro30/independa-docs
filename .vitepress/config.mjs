@@ -57,7 +57,18 @@ export default defineConfig({
           { text: 'AWS', link: '/docs/developer/aws' },
           { text: 'Twilio', link: '/docs/developer/twilio' },
           { text: 'DANA', link: '/docs/developer/dana' },
+          // { text: 'LG TV', link: '/docs/developer/lg-tv' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Platforms',
+        items: [
+          { text: 'LG TV', link: '/docs/platforms/lg-tv' },
+          // { text: 'Chrome Browser', link: '/docs/developer/lg-tv' },
+          // { text: 'iOS Mobile', link: '/docs/developer/lg-tv' },
+          // { text: 'Android Mobile', link: '/docs/developer/lg-tv' },
+          // { text: 'SONY TV', link: '/docs/developer/lg-tv' },
         ]
       },
       {
