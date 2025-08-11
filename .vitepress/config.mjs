@@ -30,6 +30,17 @@ export default defineConfig({
           { text: 'Features', link: '/docs/general/features' },
         ]
       },
+      {
+        text: 'Testing',
+        items: [
+          { text: 'Strategy', link: '/docs/testing/strategy' },
+          { text: 'Bugs', link: '/docs/testing/bugs' },
+          // { text: 'Chrome Browser', link: '/docs/developer/lg-tv' },
+          // { text: 'iOS Mobile', link: '/docs/developer/lg-tv' },
+          // { text: 'Android Mobile', link: '/docs/developer/lg-tv' },
+          // { text: 'SONY TV', link: '/docs/developer/lg-tv' },
+        ]
+      },
       // {
       //   text: 'Enterprise',
       //   items: [
@@ -76,8 +87,8 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/docs/legacy/overview' },
           // { text: 'AWS', link: '/docs/legacy/mobile' },
-          // { text: 'Legacy', link: '/docs/developer/legacy' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Mobile', link: '/docs/legacy/mobile' },
+          { text: 'IATC', link: '/docs/legacy/iatc' },
           { text: 'Keystone', link: '/docs/legacy/keystone' },
         ]
       }
