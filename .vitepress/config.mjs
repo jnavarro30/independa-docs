@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/independa-docs/",
-  title: "Documentation",
+  title: "Independa",
   description: "For the Consumer, Enterprise & Developer",
   head: [
       ['link', {rel: 'icon', href: '/independa-docs/favicon.ico', type: 'image/x-icon'}]

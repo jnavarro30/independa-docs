@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Independa
-  text: Docs
+  text: Documentation
   tagline: For the Consumer, Enterprise & Developer
   image:
     src: /independa_logo.png
@@ -20,15 +20,20 @@ hero:
       text: Health Hub
       link: https://tv.independa.com/
     - theme: brand
+      text: EverThrive
+      link: https://app.everthrive.ai//
+    - theme: brand
       text: Companion
       link: /redirect
 
 features:
-  - title: Docs
-    details: Everything we need from getting started with our platforms to troubleshooting and setting up our development environments.
+  # - title: Docs
+  #   details: Everything we need from getting started with our platforms to troubleshooting and setting up our development environments.
   - title: Portal
     details: Enterprise grade, PAAS (Platform as a Service) TV based, award winning, HIPAA compliant, social / clinical / operational engagement and benefits, all fully integrated, easy to install, use and manage. Create top line growth, bottom line efficiencies, and brand benefits.
   - title: Health Hub
+    details: FREE and awesome benefits including hearing assessment, pharmacy discount benefits, simplified video chat, and photo / message / audio and video clip sharing with loved ones. Even fun games! Premium services include access to doctors, therapists and dentists. Health and wellness options, including WebMD medical grade content and personalized exercise videos, and more!
+  - title: EverThrive
     details: FREE and awesome benefits including hearing assessment, pharmacy discount benefits, simplified video chat, and photo / message / audio and video clip sharing with loved ones. Even fun games! Premium services include access to doctors, therapists and dentists. Health and wellness options, including WebMD medical grade content and personalized exercise videos, and more!
   - title: Companion
     details: The Companion for personal caregivers using the powerful Independa platform to support loved ones who choose to age-in-place. The Independa-enabled TV supports a range of engagement, reminder, and support oriented functions, all controlled through your Android phone and companion web application. If you have an IndependaTV and caregiver log-in, download now! 
