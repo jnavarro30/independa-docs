@@ -12,7 +12,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Home', link: '/' },
-      // { text: 'Developer', link: '/docs/developer/overview' },
       { text: 'Docs', link: '/docs/development/guidelines' },
     ],
 
@@ -35,13 +34,10 @@ export default defineConfig({
           // { text: 'Overview', link: '/docs/developer/overview' },
           // { text: 'Health Hub', link: '/docs/developer/health-hub' },
           // { text: 'Companion', link: '/docs/developer/companion' },
-          { text: 'Patient Education', link: '/docs/development/patient-education' },
           { text: 'Partners', link: '/docs/development/partners' },
           { text: 'AWS', link: '/docs/development/aws' },
           { text: 'Twilio', link: '/docs/development/twilio' },
           { text: 'DANA', link: '/docs/development/dana' },
-          // { text: 'LG TV', link: '/docs/developer/lg-tv' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
       {
@@ -51,10 +47,6 @@ export default defineConfig({
           { text: 'EverThrive', link: '/docs/testing/everthrive' },
           { text: 'Support', link: '/docs/testing/support' },
           { text: 'Bugs', link: '/docs/testing/bugs' },
-          // { text: 'Chrome Browser', link: '/docs/developer/lg-tv' },
-          // { text: 'iOS Mobile', link: '/docs/developer/lg-tv' },
-          // { text: 'Android Mobile', link: '/docs/developer/lg-tv' },
-          // { text: 'SONY TV', link: '/docs/developer/lg-tv' },
         ]
       },
       // {
@@ -76,18 +68,16 @@ export default defineConfig({
       {
         text: 'Platforms',
         items: [
-          { text: 'LG TV', link: '/docs/platforms/lg-tv' },
-          // { text: 'Chrome Browser', link: '/docs/developer/lg-tv' },
-          // { text: 'iOS Mobile', link: '/docs/developer/lg-tv' },
-          // { text: 'Android Mobile', link: '/docs/developer/lg-tv' },
-          // { text: 'SONY TV', link: '/docs/developer/lg-tv' },
+          { text: 'Health Hub', link: '/docs/platforms/health-hub' },
+          { text: 'Companion', link: '/docs/platforms/companion' },
+          { text: 'LG', link: '/docs/platforms/lg-tv' },
+          { text: 'Patient Education', link: '/docs/platforms/patient-education' },
         ]
       },
       {
         text: 'Legacy',
         items: [
           { text: 'Overview', link: '/docs/legacy/overview' },
-          // { text: 'AWS', link: '/docs/legacy/mobile' },
           { text: 'Mobile', link: '/docs/legacy/mobile' },
           { text: 'IATC', link: '/docs/legacy/iatc' },
           { text: 'Keystone', link: '/docs/legacy/keystone' },
