@@ -1,10 +1,9 @@
 ---
 outline: deep
 ---
+# Twilio
 
-## Twilio
-
-### Numbers
+## Numbers
 
 | Type | Number |
 |-------------|-------------|
@@ -12,7 +11,7 @@ outline: deep
 | SMS | (858) 367-3998 |
 
 
-### India
+## India
 [Limitations](https://help.twilio.com/articles/223134167) for SMS
 - When sending messages to India, your Twilio phone number will not appear as the sender of the message.
 - Your Twilio number will be seen as a random short number between 5 and 9 digits long, e.g. 5NNNN - 5NNNNNNN to the end users.

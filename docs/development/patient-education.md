@@ -2,16 +2,16 @@
 outline: deep
 ---
 
-## Patient Education
+# Patient Education
 
-### Links
+## Links
 
 | Site | Link |
 |-------------|-------------|
 | Patient Education | [Demo Emma Site](https://demo-emma-admin.independa.com/#/) |
 | 3K Videos | [AWS S3 Bucket](https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#)  |
 
-### Numbers
+## Numbers
 
 | Type | Number |
 |-------------|-------------|

@@ -1,9 +1,9 @@
 ---
 outline: deep
 ---
-# Organization
+# EverThrive
 
-### Project Name: All Projects
+### Project Name: EverThrive
 ### Version: 1.0
 ### Prepared By: EverThrive Team
 ### Date: August 27, 2025 
@@ -24,11 +24,11 @@ outline: deep
 
 ## Introduction
 
-This document outlines the software testing strategy for ensuring high-quality delivery of the application across mobile and web platforms. Both manual and automated testing will be applied to maximize coverage, efficiency, and defect detection.
+This document outlines the software testing strategy for ensuring high-quality delivery of the application across devices. Both manual and automated testing will be applied to maximize coverage, efficiency, and defect detection.
 
 ## Objectives
 
-- Ensure high-quality user experience across mobile, tv and web devices.
+- Ensure high-quality user experience across the chrome browser and tv devices.
 
 - Achieve broad functional coverage through automation and deep exploratory coverage via manual testing.
 
@@ -43,7 +43,7 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Regression and smoke testing.
 
-- Chrome browser & cross-device (mobile, tv) testing.
+- Chrome browser & cross-device (tv) testing.
 
 - Exploratory testing (usability, accessibility, error-handling).
 
@@ -82,6 +82,8 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Automate tests using parameterized datasets (roles, input variations).
 
+- Test using Multiple Accounts (Empty and Populated for Manager, CR and at least 1 Contact)
+
 - Reuse data pools for manual and automated test execution.
 
 #### Exploratory Testing
@@ -113,9 +115,7 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 #### Automated Testing
 
-- Appium: Mobile regression & smoke tests across target devices.
-
-- Playwright: Web cross-browser regression, smoke tests, and workflow automation.
+- Playwright: Chrome browser regression, smoke tests, and workflow automation.
 
 - Data-driven suites for repeatable test coverage.
 
@@ -129,9 +129,9 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Device/browser coverage includes:
 
-    - Mobile: Latest Android/iOS, plus one legacy OS version.
+    <!-- - Mobile: Latest Android/iOS, plus one legacy OS version. -->
 
-    - Web: Chrome, Safari, Firefox, Edge (latest 2 versions).
+    - Web: Chrome.
 
 ## Exit Criteria
 

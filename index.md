@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Independa
   text: Documentation
-  tagline: For the Consumer, Enterprise & Developer
+  tagline: 
   image:
     src: /independa_logo.png
     alt: "Independa Logo"

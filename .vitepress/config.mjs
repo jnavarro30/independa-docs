@@ -3,37 +3,53 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/independa-docs/",
-  title: "Independa",
-  description: "For the Consumer, Enterprise & Developer",
+  title: "Home",
+  description: "",
   head: [
       ['link', {rel: 'icon', href: '/independa-docs/favicon.ico', type: 'image/x-icon'}]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/markdown-examples' },
-      // { text: 'Enterprise', link: '/docs/enterprise/overview' },
-      // { text: 'Consumer', link: '/docs/consumer/overview' },
-      { text: 'Developer', link: '/docs/developer/overview' },
-      { text: 'Docs', link: '/docs/general/roles' },
+      // { text: 'Home', link: '/' },
+      // { text: 'Developer', link: '/docs/developer/overview' },
+      { text: 'Docs', link: '/docs/development/guidelines' },
     ],
 
     sidebar: [
+      // {
+      //   text: 'General',
+      //   items: [
+      //     // { text: 'Overview', link: '/docs/general/overview' },
+      //     { text: 'Roles', link: '/docs/general/roles' },
+      //     { text: 'Contacts', link: '/docs/general/contacts' },
+      //     { text: 'Availability', link: '/docs/general/availability' },
+      //     { text: 'Features', link: '/docs/general/features' },
+      //   ]
+      // },
       {
-        text: 'General',
+        text: 'Development',
         items: [
-          // { text: 'Overview', link: '/docs/general/overview' },
-          { text: 'Roles', link: '/docs/general/roles' },
-          { text: 'Contacts', link: '/docs/general/contacts' },
-          { text: 'Availability', link: '/docs/general/availability' },
-          { text: 'Features', link: '/docs/general/features' },
+          { text: 'Guidelines', link: '/docs/development/guidelines' },
+          { text: 'Architecture', link: '/docs/development/architecture' },
+          // { text: 'Overview', link: '/docs/developer/overview' },
+          // { text: 'Health Hub', link: '/docs/developer/health-hub' },
+          // { text: 'Companion', link: '/docs/developer/companion' },
+          { text: 'Patient Education', link: '/docs/development/patient-education' },
+          { text: 'Partners', link: '/docs/development/partners' },
+          { text: 'AWS', link: '/docs/development/aws' },
+          { text: 'Twilio', link: '/docs/development/twilio' },
+          { text: 'DANA', link: '/docs/development/dana' },
+          // { text: 'LG TV', link: '/docs/developer/lg-tv' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
       {
         text: 'Testing',
         items: [
           { text: 'Strategy', link: '/docs/testing/strategy' },
+          { text: 'EverThrive', link: '/docs/testing/everthrive' },
+          { text: 'Support', link: '/docs/testing/support' },
           { text: 'Bugs', link: '/docs/testing/bugs' },
           // { text: 'Chrome Browser', link: '/docs/developer/lg-tv' },
           // { text: 'iOS Mobile', link: '/docs/developer/lg-tv' },
@@ -57,21 +73,6 @@ export default defineConfig({
       //     // { text: 'Runtime API Examples', link: '/api-examples' }
       //   ]
       // },
-      {
-        text: 'Developer',
-        items: [
-          { text: 'Overview', link: '/docs/developer/overview' },
-          { text: 'Health Hub', link: '/docs/developer/health-hub' },
-          { text: 'Companion', link: '/docs/developer/companion' },
-          { text: 'Patient Education', link: '/docs/developer/patient-education' },
-          { text: 'Partners', link: '/docs/developer/partners' },
-          { text: 'AWS', link: '/docs/developer/aws' },
-          { text: 'Twilio', link: '/docs/developer/twilio' },
-          { text: 'DANA', link: '/docs/developer/dana' },
-          // { text: 'LG TV', link: '/docs/developer/lg-tv' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
       {
         text: 'Platforms',
         items: [
