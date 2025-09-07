@@ -11,9 +11,6 @@ hero:
     alt: "Independa Logo"
   actions:
     - theme: brand
-      text: Docs
-      link: /docs/development/guidelines
-    - theme: brand
       text: Portal
       link: https://portal.independa.com/
     - theme: brand
@@ -25,6 +22,9 @@ hero:
     - theme: brand
       text: Companion
       link: /redirect
+    - theme: brand
+      text: Docs
+      link: /docs/development/guidelines
 
 features:
   # - title: Docs
