@@ -38,6 +38,7 @@ export default defineConfig({
           { text: 'AWS', link: '/docs/development/aws' },
           { text: 'Twilio', link: '/docs/development/twilio' },
           { text: 'DANA', link: '/docs/development/dana' },
+          { text: 'Resources', link: '/docs/development/resources' },
         ]
       },
       {
