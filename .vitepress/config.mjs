@@ -69,6 +69,7 @@ export default defineConfig({
       {
         text: 'Platforms',
         items: [
+          { text: 'EverThrive', link: '/docs/platforms/everthrive' },
           { text: 'Health Hub', link: '/docs/platforms/health-hub' },
           { text: 'Companion', link: '/docs/platforms/companion' },
           { text: 'LG', link: '/docs/platforms/lg-tv' },
