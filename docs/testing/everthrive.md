@@ -6,7 +6,7 @@ outline: deep
 ### Project Name: EverThrive
 ### Version: 1.0
 ### Prepared By: EverThrive Team
-### Date: August 27, 2025 
+### Date: September 23, 2025 
 
 <br>
 
@@ -15,39 +15,51 @@ outline: deep
 2. [Objectives](#objectives)  
 3. [Scope](#scope)  
 4. [Test Approach](#test-approach)  
-5. [Test Coverage](#test-coverage)  
-6. [Test Execution Strategy](#test-execution-strategy)   
-7. [Test Environments](#test-environments)  
-8. [Exit Criteria](#exit-criteria)  
-9. [Deliverables](#deliverables)  
-10. [Roles & Responsibilities](#roles--responsibilities)  
+5. [Test Execution Strategy](#test-execution-strategy)   
+6. [Test Environments](#test-environments)  
+7. [Roles & Responsibilities](#roles--responsibilities)  
+8. [Time Scale](#time-scale)
 
 ## Introduction
 
-This document outlines the software testing strategy for ensuring high-quality delivery of the application across devices. Both manual and automated testing will be applied to maximize coverage, efficiency, and defect detection.
+The focus of this project:
+
+- Simplicity of use in all areas
+- Realiable user log in, payments and other transactions
+- Secure using OTP
+- Check-Ins
+- Partners
 
 ## Objectives
 
 - Ensure high-quality user experience across the chrome browser and tv devices.
 
-- Achieve broad functional coverage through automation and deep exploratory coverage via manual testing.
+- Catch regressions early by running Playwright tests after every commit.
 
-- Detect defects early through shift-left practices and continuous testing.
+- Use data-testid attributes to make tests stable and independent of UI layout changes.
 
-- Support scalability by enabling data-driven, repeatable, and maintainable test suites.
+- Creating Pull Requests (PRs) for code and test reviews before merging.
+
+- Automate testing where possible.
 
 ## Scope
 #### In-Scope
 
-- Functional testing (unit, integration, end-to-end).
+- Browser Testing: Chrome (latest stable version) on desktop.
 
-- Regression and smoke testing.
+- Mobile Devices: Verify calls and browser actions triggered from Android and iOS devices.
 
-- Chrome browser & cross-device (tv) testing.
+- Happy Path: Key workflows automated end-to-end using Playwright.
 
-- Exploratory testing (usability, accessibility, error-handling).
+- Exploratory testing: (usability, accessibility, error-handling).
+
+- New Feature Testing: Verify the new feature in isolation and related existing features to prevent regressions.
+
+- Error cases: Show user specific erros for guidance
 
 #### Out-of-Scope
+
+- Non Chrome Browsers and legacy chrome browsers
 
 - Performance/stress testing (handled separately).
 
@@ -61,16 +73,6 @@ This document outlines the software testing strategy for ensuring high-quality d
 - Automate high-value regression scenarios.
 
 - Apply exploratory testing for high-risk edge cases.
-
-#### Test Pyramid Strategy
-
-- Unit Tests → Cover core logic, run on every commit.
-
-- API/Integration Tests → Validate service contracts and error handling.
-
-- UI Tests (Appium/Playwright) → Automate critical happy paths and smoke tests.
-
-- Manual Testing → Exploratory testing, usability, accessibility, rare edge cases.
 
 #### Scenario-Based Testing
 
@@ -92,22 +94,10 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Target areas automation cannot cover (UI/UX, accessibility, unexpected flows).
 
-## Test Coverage
-
-#### Coverage measured by:
-
-- Requirements Coverage (traceability matrix).
-
-- Code Coverage (unit + integration).
-
-- Risk Coverage (high, medium, low risk areas).
-
-- Device/Browser Coverage (matrix defined per release).
-
 ## Test Execution Strategy
 #### Manual Testing
 
-- Exploratory testing of new features.
+- Exploratory testing of new features and around it.
 
 - Usability and accessibility validation.
 
@@ -117,43 +107,17 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Playwright: Chrome browser regression, smoke tests, and workflow automation.
 
-- Data-driven suites for repeatable test coverage.
-
 - Nightly CI/CD regression runs + smoke tests on each pull request.
 
 ## Test Environments
 
 - Staging environment mirrors production setup for final validation.
 
-- CI/CD pipeline triggers automated suites on dev/stage builds.
-
 - Device/browser coverage includes:
 
-    <!-- - Mobile: Latest Android/iOS, plus one legacy OS version. -->
+    - Mobile: Latest Android/iOS, plus one legacy OS version.
 
     - Web: Chrome.
-
-## Exit Criteria
-
-- All critical & high-severity defects resolved or mitigated.
-
-- ≥ 90% test case execution across planned scope.
-
-- ≥ 80% code coverage for unit tests.
-
-- Smoke suite passes consistently in CI/CD.
-
-- Stakeholder sign-off after exploratory sessions.
-
-## Deliverables
-
-- Test cases (manual + automated).
-
-- Test execution reports.
-
-- Defect reports & root cause analysis.
-
-- Automation results integrated into CI/CD dashboard.
 
 ## Roles & Responsibilities
 
@@ -164,6 +128,12 @@ This document outlines the software testing strategy for ensuring high-quality d
 - Test Lead → Test planning, risk assessment, reporting.
 
 - Product Owners → Acceptance criteria validation, sign-off.
+
+## Time Scale
+
+- 1 hour of exploratory testing
+- 1 hour of sanity testing
+- Specific related regression test on every commit
 <!-- ## More
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata). -->

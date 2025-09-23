@@ -36,6 +36,7 @@ export default defineConfig({
           // { text: 'Companion', link: '/docs/developer/companion' },
           { text: 'Partners', link: '/docs/development/partners' },
           { text: 'AWS', link: '/docs/development/aws' },
+          { text: 'Notificaion API', link: '/docs/development/notification-api' },
           { text: 'Twilio', link: '/docs/development/twilio' },
           { text: 'DANA', link: '/docs/development/dana' },
           { text: 'Resources', link: '/docs/development/resources' },
