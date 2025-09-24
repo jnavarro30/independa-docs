@@ -115,6 +115,131 @@ Status Code: 200 OK
 }
 ```
 
+MediOrbis:
+
+ STAGE:
+  Endpoint:
+
+    STAGE:https://api-stage.independa.com/partner/mediorbis/care-recipient
+
+      Method: GET
+
+      Description: Retrieve the care recipient's information.
+
+  Parameters
+     Query Parameters:
+
+     uid (string, required): Unique identifier for the user.
+
+  Request Example
+  GET:     https://api-stage.independa.com/partner/mediorbis/care-recipient?uid=3946992d-6fdb-4152-a125-6c32e403d574
+
+  Response
+    Success Response:
+
+Code: 200 OK
+
+  {
+
+"id": 3299,
+
+"uid": "3946992d-6fdb-4152-a125-6c32e403d574",
+
+"firstName": "Premjith",
+
+"lastName": "CT",
+
+"email": "premjith.p@consciotech.com",
+
+"phone": "8892929292",
+
+"zip": "90001",
+
+"time_zone": null,
+
+"user_address": [
+
+{
+
+"city": "",
+
+"state": "Hawaii",
+
+"address": "",
+
+"country": "United States",
+
+"phone_number": "8892929292"
+
+}
+
+]
+
+}
+
+
+MediOrbis (PROD):
+
+ PROD:
+  Endpoint:
+
+PROD:https://api-v2.independa.com/partner/mediorbis/care-recipient
+
+      Method: GET
+
+      Description: Retrieve the care recipient's information.
+
+  Parameters
+     Query Parameters:
+
+     uid(required): Unique identifier for the user. 
+
+  Request Example
+  GET:     https://api-v2.independa.com/partner/mediorbis/care-recipient?uid=6ab3c3cd-0440-48ab-a6f2-27b7bf0e20f2
+
+  Response
+    Success Response:
+
+Code: 200 OK
+
+  {
+
+"id": 3299,
+
+"uid": "3946992d-6fdb-4152-a125-6c32e403d574",
+
+"firstName": "Premjith",
+
+"lastName": "CT",
+
+"email": "premjith.p@consciotech.com",
+
+"phone": "8892929292",
+
+"zip": "90001",
+
+"time_zone": null,
+
+"user_address": [
+
+{
+
+"city": "",
+
+"state": "Hawaii",
+
+"address": "",
+
+"country": "United States",
+
+"phone_number": "8892929292"
+
+}
+
+]
+
+}
+
 ## The Smarter Service
 
 - [Wellness Wednesday & Fraud Friday Videos](https://drive.google.com/drive/folders/1rg8kSbAeDLBFCxFRSVeG4srrhmsA4UAt)
