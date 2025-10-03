@@ -11,20 +11,47 @@ outline: deep
 | Patient Education | [Demo Emma Site](https://demo-emma-admin.independa.com/#/) |
 | 3K Videos | [AWS S3 Bucket](https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#)  |
 
-## Numbers
+## Journey Django
+### Setup
+- Repo journey-django
+- Branch main
+- Update requirements
+- Settings.py: use dev-journey credentials
+- pip install -r requirements.txt
+- venv and run manage.py show migrations
+- venv and run manage.py runserver
+- Create venv environment
+- source venv/bin/activate
+- python3 -m venv env
+- pyenv install 3.7.13
+- pyenv local 3.7.13
 
-| Type | Number |
-|-------------|-------------|
-| Call | (800) 815-7829 |
-| SMS | (858) 367-3998 |
+### Run Locally
+- source venv/bin/activate
+- python app/manage.py runserver
 
-<!-- ![Patient Education](./assets/patient-education/mdm_homepage.png) -->
+## Journey Admin
+### Setup
+- Repo journey-admin
+- Branch stage
+
+### Run Locally
+- make local
+- Listening at http://localhost:8001
+
+## MDM Client
+### Setup
+- Repo mdm-client
+- Branch stage
+
+### Run Locally
+- make local
+- Result: Listening at http://localhost:8002
+
+<!-- kian
+simplicity -->
 
 https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#
-
-```
-git clone https://github.com/Independa/journey-django.git
-```
 
 ```
 {

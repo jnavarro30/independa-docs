@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Notificaion API', link: '/docs/development/notification-api' },
           { text: 'Twilio', link: '/docs/development/twilio' },
           { text: 'DANA', link: '/docs/development/dana' },
+          { text: 'Customer Support', link: '/docs/development/customer_support' },
           { text: 'Resources', link: '/docs/development/resources' },
         ]
       },
