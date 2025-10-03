@@ -15,6 +15,7 @@ outline: deep
 ### Setup
 - Repo journey-django
 - Branch main
+- Have Docker running
 - Update requirements
 - Settings.py: use dev-journey credentials
 - pip install -r requirements.txt
