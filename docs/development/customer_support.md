@@ -2,6 +2,13 @@
 outline: deep
 ---
 # Customer Support
+## Phone Call
+Name & Number
+What industry?  
+The name and type of organization?  For example, Atria Care in Memory Care.  Or XYZ Living in AL / IL (Assisted Living / Independent Living)
+How did you hear about us?
+Is this for an active project?
+
 ## FAQ
 
 ### 1. Sign-Up & Account Creation

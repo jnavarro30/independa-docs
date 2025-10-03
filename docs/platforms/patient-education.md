@@ -13,15 +13,15 @@ outline: deep
 
 ## Journey Django
 ### Setup
-- Repo journey-django
-- Branch main
-- Have Docker running
+- repo journey-django
+- branch main
+- have Docker running
 - Update requirements
-- Settings.py: use dev-journey credentials
+- settings.py: use dev-journey credentials
 - pip install -r requirements.txt
 - venv and run manage.py show migrations
 - venv and run manage.py runserver
-- Create venv environment
+- create venv environment
 - source venv/bin/activate
 - python3 -m venv env
 - pyenv install 3.7.13
@@ -33,21 +33,21 @@ outline: deep
 
 ## Journey Admin
 ### Setup
-- Repo journey-admin
-- Branch stage
+- repo journey-admin
+- branch stage
 
 ### Run Locally
 - make local
-- Listening at http://localhost:8001
+- listening at 8001
 
 ## MDM Client
 ### Setup
-- Repo mdm-client
-- Branch stage
+- repo mdm-client
+- branch stage
 
 ### Run Locally
 - make local
-- Result: Listening at http://localhost:8002
+- listening at 8002
 
 <!-- kian
 simplicity -->
