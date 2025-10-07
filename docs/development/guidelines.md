@@ -33,18 +33,43 @@ To maintain consistency, readability, and quality across the Independa/EverThriv
 
 - CSS/SCSS → Prettier + Stylelint
 
+### Prettier
+
+| Option | Value | Description |
+| ----------- | ----------- | ----------- |
+| singleQuote | true | - |
+| semi | true | - |
+| trailingComma | 'all' | - |
+| bracketSpacing | true | - |
+| arrowParens | 'always' | functions should always have parens around it's args |
+| printWidth | 400 | Let's try and avoid wrapping |
+| endOfLine | 'auto' | Don’t force any particular newline style — just match what’s already in the file or system. |
+
+### Pug (if necessary)
+
+| Option | Value | Description |
+| ----------- | ----------- | ----------- |
+| pugSingleQuote | true | - |
+| pugPrintWidth | 400 | - |
+| pugClassNotation | 'attribute' | - |
+| pugBracketSpacing | null | - |
+
 ## Linting
 
 - Linters must pass with no errors before code can be merged.
 
 - Configurations are defined in the repo (.eslintrc.js).
 
-Tools:
+### ESLint
 
-- JavaScript: ESLint
- with Airbnb rules
-
-- CSS/SCSS: Stylelint
+| Rule | Value | Description |
+| ----------- | ----------- | ----------- |
+| 'no-console' | process.env.NODE_ENV === 'production' ? 'warn' : 'off' | - |
+| 'no-debugger' | process.env.NODE_ENV === 'production' ? 'warn' : 'off' | - |
+| eqeqeq | ['warn', 'always'] | strict === |
+| 'object-curly-spacing' | ['warn', 'always'] | - |
+| 'no-unused-vars' | 'warn' | - |
+| 'vue/max-attributes-per-line' | ['warn', { singleline: { max: 100 }, multiline: { max: 1 } } ], | - |
 
 Run manually:
 
