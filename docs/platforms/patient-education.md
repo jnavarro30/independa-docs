@@ -49,6 +49,13 @@ outline: deep
 - make local
 - listening at 8002
 
+## Cloudflared
+### Run remotely
+- brew install cloudflared
+- cd project root
+- cloudflared tunnel --url http://localhost:8000 (change port accordingly)
+- the terminal creates a link where you can access the local repos
+
 <!-- kian
 simplicity -->
 
