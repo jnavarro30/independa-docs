@@ -53,7 +53,10 @@ outline: deep
 ### Run remotely
 - brew install cloudflared
 - cd project root
-- cloudflared tunnel --url http://localhost:8000 (change port accordingly)
+- (change port accordingly)
+```
+cloudflared tunnel --url http://localhost:8000
+```
 - the terminal creates a link where you can access the local repos
 
 <!-- kian
