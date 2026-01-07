@@ -42,6 +42,9 @@ Status Code: 200 OK
 
 ```
 
+### Testing
+- check https://www.backofficing.com/dashboard/index for status
+
 ## Lucid Hearing 
 
 | DEV | Endpoint |
@@ -239,6 +242,9 @@ Code: 200 OK
 ]
 
 }
+
+### Testing
+- DOB field is the current issue
 
 ## The Smarter Service
 

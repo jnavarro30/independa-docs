@@ -41,6 +41,17 @@ export default defineConfig({
           { text: 'DANA', link: '/docs/development/dana' },
           { text: 'Customer Support', link: '/docs/development/customer_support' },
           { text: 'Resources', link: '/docs/development/resources' },
+          { text: 'Staging', link: '/docs/development/staging' },
+          { text: 'Production', link: '/docs/development/production' },
+        ]
+      },
+      {
+        text: 'Health',
+        items: [
+          { text: 'Devices', link: '/docs/health/devices' },
+          { text: 'Development', link: '/docs/health/development' },
+          // { text: 'Support', link: '/docs/health/support' },
+          // { text: 'Bugs', link: '/docs/health/bugs' },
         ]
       },
       {

@@ -18,6 +18,18 @@ This page demonstrates the setup, installation and deployment of the EverThrive/
 
 ### Setup
 - reademe.md files will be included in project
+- npm i
+- make sure you have the Users/{username}/.netrc file with the following:
+```
+machine danabrainvital.jfrog.io 
+login yourArtifactoryUsername 
+password yourArtifactoryIosPasskey
+```
+- pod install and potentially delete Podfile.lock
+```
+cd ios
+pod install --repo-update
+```
 
 #### Deployment
 - EverThrive stage-common and Independa main-common branch

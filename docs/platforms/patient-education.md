@@ -11,58 +11,36 @@ outline: deep
 | Patient Education | [Demo Emma Site](https://demo-emma-admin.independa.com/#/) |
 | 3K Videos | [AWS S3 Bucket](https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#)  |
 
-## Journey Django
-### Setup
-- repo journey-django
-- branch main
-- have Docker running
-- Update requirements
-- settings.py: use dev-journey credentials
-- pip install -r requirements.txt
-- venv and run manage.py show migrations
-- venv and run manage.py runserver
-- create venv environment
-- source venv/bin/activate
-- python3 -m venv env
-- pyenv install 3.7.13
-- pyenv local 3.7.13
+Download Patient Education repos
 
-### Run Locally
-- source venv/bin/activate
-- python app/manage.py runserver
-
-## Journey Admin
-### Setup
-- repo journey-admin
-- branch stage
-
-### Run Locally
-- make local
-- listening at 8001
-
-## MDM Client
-### Setup
-- repo mdm-client
-- branch stage
-
-### Run Locally
-- make local
-- listening at 8002
+## Journey Django, Journey Admin and MDM Client
+### Requirements
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- setup steps included in the readme
 
 ## Cloudflared
 ### Run remotely
 - brew install cloudflared
 - cd project root
-- (change port accordingly)
+- cloudflared login
+- journey-django
 ```
 cloudflared tunnel --url http://localhost:8000
 ```
-- the terminal creates a link where you can access the local repos
+- get the random.trycloudflare.com
+- add it to the .env.js of admin/client repos for API_HOST_URL
+- run repo locally and then run the following:
+- use 2 terminal windows/tabs
+- each command should be run separately
+```
+cloudflared tunnel --url http://localhost:8001
+cloudflared tunnel --url http://localhost:8002
+```
+- these commands will expose random.trycloudflare.com
+- .trycloudflare.com will be your access point
 
 <!-- kian
 simplicity -->
-
-https://us-west-2.console.aws.amazon.com/s3/buckets/om-assets-dev?bucketType=general&region=us-west-2&tab=objects#
 
 ```
 {
