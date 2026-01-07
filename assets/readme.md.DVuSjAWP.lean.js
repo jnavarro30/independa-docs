@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as t,ae as n}from"./chunks/framework.Byi7L62k.js";const u=JSON.parse('{"title":"Read Me","description":"","frontmatter":{},"headers":[],"relativePath":"readme.md","filePath":"readme.md"}'),i={name:"readme.md"};function o(d,e,p,l,r,c){return t(),s("div",null,e[0]||(e[0]=[n("",7)]))}const g=a(i,[["render",o]]);export{u as __pageData,g as default};
