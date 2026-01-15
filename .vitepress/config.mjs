@@ -46,6 +46,24 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Companion',
+        items: [
+          // { text: 'Devices', link: '/docs/companion/devices' },
+          { text: 'Development', link: '/docs/companion/development' },
+          // { text: 'Support', link: '/docs/companion/support' },
+          // { text: 'Bugs', link: '/docs/companion/bugs' },
+        ]
+      },
+      {
+        text: 'Health Hub',
+        items: [
+          // { text: 'Devices', link: '/docs/health-hub/devices' },
+          { text: 'Development', link: '/docs/health-hub/development' },
+          // { text: 'Support', link: '/docs/health-hub/support' },
+          // { text: 'Bugs', link: '/docs/health-hub/bugs' },
+        ]
+      },
+      {
         text: 'Health',
         items: [
           { text: 'Devices', link: '/docs/health/devices' },
