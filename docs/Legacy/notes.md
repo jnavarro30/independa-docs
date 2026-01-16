@@ -11,5 +11,5 @@ outline: deep
 - Uds201307-prod
     - Delete database
     - Save backup
-    - If want to restore heroku pg:backups:restore '<URL_OR_FILE>' DATABASE_URL --app <your-app-name>
-    - Dump in downloads folder
+    <!-- - If want to restore heroku pg:backups:restore '<URL_OR_FILE>' DATABASE_URL --app <your-app-name>
+    - Dump in downloads folder -->
