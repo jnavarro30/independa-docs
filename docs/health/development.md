@@ -48,3 +48,10 @@ The sensor ID's must exist in the gateway before joining is allowed.
 The sensors must be a compatible firmware version with the gateway..  for US (900 MHz) all sensors 2.0.0.0 and up are compatible with all gateways 2.0.0.0 and up.
 
 Most common thing we hear is people that are pulling the batteries out and putting them right back in.  there are capacitors on the board that will keep power to the processor for up to 60 seconds after the battery has been removed.  To overcome this, remove the batteries and wait 60 - 90 seconds before putting them back in.
+
+| Source Type | Threshold Type | Reading Type |
+| ----------- | ----------- | ----------- |
+| Door/Window Sensor | Activity | Boolean |
+| Monnit Panic Button/Key FOB | Safety | Boolean |
+| Monnit PIR Sensor (Motion) | Activity | Boolean |
+| Monnit Pressure Pad | Activity | Boolean |

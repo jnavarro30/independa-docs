@@ -16,16 +16,16 @@ export default defineConfig({
     ],
 
     sidebar: [
-      // {
-      //   text: 'General',
-      //   items: [
-      //     // { text: 'Overview', link: '/docs/general/overview' },
-      //     { text: 'Roles', link: '/docs/general/roles' },
-      //     { text: 'Contacts', link: '/docs/general/contacts' },
-      //     { text: 'Availability', link: '/docs/general/availability' },
-      //     { text: 'Features', link: '/docs/general/features' },
-      //   ]
-      // },
+      {
+        text: 'General',
+        items: [
+          // { text: 'Overview', link: '/docs/general/overview' },
+          { text: 'Roles', link: '/docs/general/roles' },
+          { text: 'Contacts', link: '/docs/general/contacts' },
+          { text: 'Availability', link: '/docs/general/availability' },
+          { text: 'Features', link: '/docs/general/features' },
+        ]
+      },
       {
         text: 'Development',
         items: [
@@ -59,6 +59,15 @@ export default defineConfig({
         items: [
           // { text: 'Devices', link: '/docs/health-hub/devices' },
           { text: 'Development', link: '/docs/health-hub/development' },
+          // { text: 'Support', link: '/docs/health-hub/support' },
+          // { text: 'Bugs', link: '/docs/health-hub/bugs' },
+        ]
+      },
+      {
+        text: 'Portal',
+        items: [
+          // { text: 'Devices', link: '/docs/health-hub/devices' },
+          { text: 'Development', link: '/docs/portal/development' },
           // { text: 'Support', link: '/docs/health-hub/support' },
           // { text: 'Bugs', link: '/docs/health-hub/bugs' },
         ]
