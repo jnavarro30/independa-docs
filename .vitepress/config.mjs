@@ -140,7 +140,7 @@ export default defineConfig({
         text: 'Legal',
         collapsed: false,
         items: [
-          { text: 'Development', link: '/docs/legal/hippa' },
+          { text: 'HIPAA', link: '/docs/legal/hipaa' },
         ]
       },
       {
