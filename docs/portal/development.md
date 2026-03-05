@@ -41,28 +41,6 @@ pod install --repo-update
 - signing & capabilities
 - EverThrive build phases
 
-![Xcode General](./assets/xcode_general.png)
-
-![Xcode Signing & Capabilities](./assets/xcode_signing_capabilities.png)
-
-![Xcode Compile Sources](./assets/bp_compile_sources.png)
-
-![Xcode Link Binary](./assets/bp_link_binary_libraries.png)
-
-![Xcode Bundle Resources](./assets/bp_bundle_resources.png)
-
-- Independa build phases
-
-![Xcode General](./assets/independa_general.png)
-
-![Xcode Signing & Capabilities](./assets/independa_signing_capabilities.png)
-
-![Xcode Compile Sources](./assets/independa_compile_sources.png)
-
-![Xcode Link Binary](./assets/independa_link_binary.png)
-
-![Xcode Bundle Resources](./assets/independa_bundle_resources.png)
-
 - build
 - test if working
 - archive when satisfied
@@ -80,7 +58,6 @@ pod install --repo-update
 
 #### Misc
 - It might be outdated, but some certificates would have to be added to the keychain:
-![Keychain](./assets/key_chain.png)
 
 ## Android
 
@@ -112,7 +89,6 @@ cd android
 - use the version number as the release name
 - share downloadable link to developers for access
 
-![Upload .aab file](./assets/google_test_release.png)
 
 #### Play Store
 - use link to download app from the play store for testing

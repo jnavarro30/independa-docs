@@ -46,5 +46,3 @@ Visit https://www.backofficing.com/dashboard/index for status
 ### ISSUES
 - 'https://www.dentulustaging.com/api/v3/User/getAppointmentInfo' 200 OK
 - {"msg":"column \"date_of_birth\" does not exist"}
-
-![aws ssl](./assets/aws_ssl.png)
