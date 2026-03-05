@@ -99,6 +99,10 @@ This document provides a high-level overview of the technologies, frameworks, an
 
 - Voice assistant support (Alexa, Google Home)
 
+## DANA Native/Web Flow
+
+- ![flow](./assets/dana_native_web_flow.png)
+
 <!-- - Orchestration: Kubernetes (staging & production) -->
 
 <!-- ## More

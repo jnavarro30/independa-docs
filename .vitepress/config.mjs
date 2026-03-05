@@ -18,6 +18,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'General',
+        collapsed: false,
         items: [
           // { text: 'Overview', link: '/docs/general/overview' },
           { text: 'Roles', link: '/docs/general/roles' },
@@ -28,9 +29,12 @@ export default defineConfig({
       },
       {
         text: 'Development',
+        collapsed: false,
         items: [
           { text: 'Guidelines', link: '/docs/development/guidelines' },
           { text: 'Architecture', link: '/docs/development/architecture' },
+          { text: 'API\'s', link: '/docs/development/apis' },
+          { text: 'EverThrive', link: '/docs/development/everthrive' },
           // { text: 'Overview', link: '/docs/developer/overview' },
           // { text: 'Health Hub', link: '/docs/developer/health-hub' },
           // { text: 'Companion', link: '/docs/developer/companion' },
@@ -47,6 +51,7 @@ export default defineConfig({
       },
       {
         text: 'Companion',
+        collapsed: false,
         items: [
           // { text: 'Devices', link: '/docs/companion/devices' },
           { text: 'Development', link: '/docs/companion/development' },
@@ -56,6 +61,7 @@ export default defineConfig({
       },
       {
         text: 'Health Hub',
+        collapsed: false,
         items: [
           // { text: 'Devices', link: '/docs/health-hub/devices' },
           { text: 'Development', link: '/docs/health-hub/development' },
@@ -65,6 +71,7 @@ export default defineConfig({
       },
       {
         text: 'Portal',
+        collapsed: false,
         items: [
           // { text: 'Devices', link: '/docs/health-hub/devices' },
           { text: 'Development', link: '/docs/portal/development' },
@@ -73,7 +80,18 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Partners',
+        collapsed: false,
+        items: [
+          { text: 'Dentulu', link: '/docs/partners/dentulu' },
+          { text: 'Lucid', link: '/docs/partners/lucid' },
+          { text: 'MediOrbis', link: '/docs/partners/mediorbis' },
+          // { text: 'Bugs', link: '/docs/partners/bugs' },
+        ]
+      },
+      {
         text: 'Health',
+        collapsed: false,
         items: [
           { text: 'Devices', link: '/docs/health/devices' },
           { text: 'Development', link: '/docs/health/development' },
@@ -83,6 +101,7 @@ export default defineConfig({
       },
       {
         text: 'Testing',
+        collapsed: false,
         items: [
           { text: 'Strategy', link: '/docs/testing/strategy' },
           { text: 'EverThrive', link: '/docs/testing/everthrive' },
@@ -108,6 +127,7 @@ export default defineConfig({
       // },
       {
         text: 'Platforms',
+        collapsed: false,
         items: [
           { text: 'EverThrive', link: '/docs/platforms/everthrive' },
           { text: 'Health Hub', link: '/docs/platforms/health-hub' },
@@ -117,7 +137,15 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Legal',
+        collapsed: false,
+        items: [
+          { text: 'Development', link: '/docs/legal/hippa' },
+        ]
+      },
+      {
         text: 'Legacy',
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/docs/legacy/overview' },
           { text: 'Mobile', link: '/docs/legacy/mobile' },
