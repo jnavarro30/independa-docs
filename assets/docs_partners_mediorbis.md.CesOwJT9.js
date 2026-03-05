@@ -1,0 +1,21 @@
+import{_ as a,c as e,o as s,ae as n}from"./chunks/framework.Byi7L62k.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"docs/partners/mediorbis.md","filePath":"docs/partners/mediorbis.md"}'),r={name:"docs/partners/mediorbis.md"};function p(i,t,o,d,l,u){return s(),e("div",null,t[0]||(t[0]=[n(`<h2 id="mediorbis" tabindex="-1">MediOrbis <a class="header-anchor" href="#mediorbis" aria-label="Permalink to &quot;MediOrbis&quot;">​</a></h2><table tabindex="0"><thead><tr><th>DEV</th><th>Endpoint</th><th>Example</th></tr></thead><tbody><tr><td>PROD</td><td><a href="https://api-v2.independa.com/partner/mediorbis/care-recipient?uid=" target="_blank" rel="noreferrer">https://api-v2.independa.com/partner/mediorbis/care-recipient?uid=</a></td><td><a href="https://api-v2.independa.com/partner/mediorbis/care-recipient?uid=6ab3c3cd-0440-48ab-a6f2-27b7bf0e20f2" target="_blank" rel="noreferrer">https://api-v2.independa.com/partner/mediorbis/care-recipient?uid=6ab3c3cd-0440-48ab-a6f2-27b7bf0e20f2</a></td></tr><tr><td>PROD</td><td><a href="https://mediorbis.com/msmd-patient/enrollMemberForSponsor.htm?spnsr=INDEPENDA220105--83741079&amp;uid=" target="_blank" rel="noreferrer">https://mediorbis.com/msmd-patient/enrollMemberForSponsor.htm?spnsr=INDEPENDA220105--83741079&amp;uid=</a></td><td></td></tr><tr><td>STAGE</td><td><a href="https://api-stage.independa.com/partner/mediorbis/care-recipient?uid=" target="_blank" rel="noreferrer">https://api-stage.independa.com/partner/mediorbis/care-recipient?uid=</a></td><td><a href="https://api-stage.independa.com/partner/mediorbis/care-recipient?uid=3946992d-6fdb-4152-a125-6c32e403d574" target="_blank" rel="noreferrer">https://api-stage.independa.com/partner/mediorbis/care-recipient?uid=3946992d-6fdb-4152-a125-6c32e403d574</a></td></tr><tr><td>STAGE</td><td><a href="https://test3.mediorbis.com/msmd-patient/enrollMemberForSponsor.htm?spnsr=INDEPENDA220105--83741079&amp;uid=" target="_blank" rel="noreferrer">https://test3.mediorbis.com/msmd-patient/enrollMemberForSponsor.htm?spnsr=INDEPENDA220105--83741079&amp;uid=</a></td><td></td></tr></tbody></table><ul><li><p>Query Parameters: uid (string, required): Unique identifier for the user.</p></li><li><p>Request Example</p></li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>Request METHOD: GET</span></span>
+<span class="line"><span>Status Code: 200 OK</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>	&quot;id&quot;: 3299,</span></span>
+<span class="line"><span>	&quot;uid&quot;: &quot;3946992d-6fdb-4152-a125-6c32e403d574&quot;,</span></span>
+<span class="line"><span>	&quot;firstName&quot;: &quot;Premjith&quot;,</span></span>
+<span class="line"><span>	&quot;lastName&quot;: &quot;CT&quot;,</span></span>
+<span class="line"><span>	&quot;email&quot;: &quot;premjith.p@consciotech.com&quot;,</span></span>
+<span class="line"><span>	&quot;phone&quot;: &quot;8892929292&quot;,</span></span>
+<span class="line"><span>	&quot;zip&quot;: &quot;90001&quot;,</span></span>
+<span class="line"><span>	&quot;time_zone&quot;: null,</span></span>
+<span class="line"><span>	&quot;user_address&quot;: [</span></span>
+<span class="line"><span>		{</span></span>
+<span class="line"><span>			&quot;city&quot;: &quot;&quot;,</span></span>
+<span class="line"><span>			&quot;state&quot;: &quot;Hawaii&quot;,</span></span>
+<span class="line"><span>			&quot;address&quot;: &quot;&quot;,</span></span>
+<span class="line"><span>			&quot;country&quot;: &quot;United States&quot;,</span></span>
+<span class="line"><span>			&quot;phone_number&quot;: &quot;8892929292&quot;</span></span>
+<span class="line"><span>		}</span></span>
+<span class="line"><span>	]</span></span>
+<span class="line"><span>}</span></span></code></pre></div><h3 id="issues" tabindex="-1">ISSUES <a class="header-anchor" href="#issues" aria-label="Permalink to &quot;ISSUES&quot;">​</a></h3><ul><li>DOB field is the current issue</li></ul>`,6)]))}const q=a(r,[["render",p]]);export{m as __pageData,q as default};
