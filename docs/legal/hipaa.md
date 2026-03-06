@@ -4,6 +4,29 @@ outline: deep
 
 ## HIPAA
 
+- The effective date of this policy is Feb 2, 2026.
+
+| Page | Name |
+| ----------- | ----------- |
+| 1 | [Privacy Policy](https://docs.google.com/document/d/1_8Bun4cIYcUHez45S2C284O0SFBdDHE0qgj3kmuZ85s/edit?tab=t.0#heading=h.daqz3gss2y0t) |
+| 2 | [Security Policy](https://docs.google.com/document/d/1Mef6MyZmygUNmyUSel8dCZwAkR5g-hJ1XqKPXXaGqfQ/edit?tab=t.0#heading=h.m2aul5nogrys) |
+| 3 | [Breach Notification Policy](https://docs.google.com/document/d/1EeSBn41zq8CESAfQjOav2exFDcduJhK3nuCBl39qvEQ/edit?tab=t.0#heading=h.5jzmr17of0cx) |
+| 4 | [Risk Analysis](https://docs.google.com/document/d/16GUSuUFlNbUjltXfpwohbrBlW5NRc8q6ZiH5iy9VFJY/edit?tab=t.0#heading=h.9kdskf3tpnzd) |
+| 5 | [Notice of Privacy Practices (NPP)](https://docs.google.com/document/d/1eEBF0RzRckDPwA_JUnXagM4mSx8BdLWE4YpC5d7tI0k/edit?tab=t.0#heading=h.rho2zomzw7an) |
+| 6 | [Business Associate Agreement (BAA)](https://docs.google.com/document/d/1OhmALieNE6L2BJGoQ0--5MTWN4RcnA4gIOpb6HwKlg8/edit?tab=t.0#heading=h.cyhp41e862nj) |
+| 7 | [Training Log](https://docs.google.com/document/d/1-jzTbP8j4VO3onSE95LSwRoUqee9zD5_ugiQweBw0Fc/edit?tab=t.0#heading=h.21z8f4948tvw) |
+| 8 | [Employee Confidentiality Agreement](https://docs.google.com/document/d/1YqZwHOWf-Ijrmd0dRnnH6ilAwaF3mBWVhB8IYsjKEnk/edit?tab=t.0#heading=h.f6wuzoi1o90n) |
+
+| Acronyms | Full Name |
+| ----------- | ----------- |
+| PHI | Protected Health Information |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+
 1. What is HIPAA?
 - Health Insurance Portability and Accountability Act (HIPAA) is a U.S. law that protects sensitive patient health information from being disclosed without the patient’s consent or knowledge.
 
